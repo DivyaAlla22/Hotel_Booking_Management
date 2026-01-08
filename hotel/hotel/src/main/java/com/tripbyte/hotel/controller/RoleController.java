@@ -11,18 +11,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 import static org.springframework.http.HttpStatus.FOUND;
-
-/**
- * @author Simpson Alfred
- */
 @RestController
 @RequestMapping("/roles")
-// REMOVED @RequiredArgsConstructor - It was causing the error
 public class RoleController {
     
     private final IRoleService roleService;
-
-    // MANUAL CONSTRUCTOR - This tells Spring exactly how to inject the service
     public RoleController(IRoleService roleService) {
         this.roleService = roleService;
     }
