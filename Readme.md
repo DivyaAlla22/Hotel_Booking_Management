@@ -95,7 +95,12 @@ http://localhost:5173
 
 📸 Screenshots 
 
-Room Management – Admins can add and manage room types with pricing and images
+<img width="1916" height="970" alt="image" src="https://github.com/user-attachments/assets/4bd730f5-53ef-428c-8ab2-7f272e1e4b86" />
+
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/800c1089-d53e-44ee-a33f-11e8b91edee5" />
+
+<img width="1918" height="969" alt="image" src="https://github.com/user-attachments/assets/97e22023-dea7-437b-b612-11b455097988" />
+
 <img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/3ad16aca-3a3d-4087-aec7-f0acb6b13df5" />
 
 <img width="1910" height="975" alt="image" src="https://github.com/user-attachments/assets/7c36cbbd-cecc-4023-ab70-61a9ab9b6c72" />
