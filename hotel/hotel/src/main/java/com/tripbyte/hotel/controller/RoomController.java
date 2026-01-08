@@ -26,9 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author Simpson Alfred
- */
 @RestController
 @RequestMapping("/rooms")
 public class RoomController {
@@ -36,7 +33,6 @@ public class RoomController {
     private final IRoomService roomService;
     private final BookingService bookingService;
 
-    // MANUAL CONSTRUCTOR - Replaces @RequiredArgsConstructor
     public RoomController(IRoomService roomService, BookingService bookingService) {
         this.roomService = roomService;
         this.bookingService = bookingService;
