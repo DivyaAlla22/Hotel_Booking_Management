@@ -10,16 +10,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
 @RestController
 @RequestMapping("/users")
 public class UserController {
     
     private final IUserService userService;
 
-    // MANUAL CONSTRUCTOR - Essential for Spring to inject the IUserService
     public UserController(IUserService userService) {
         this.userService = userService;
     }
