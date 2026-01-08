@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { FaEdit, FaBookOpen } from "react-icons/fa" // Make sure to install react-icons
+import { FaEdit, FaBookOpen } from "react-icons/fa" 
 
 const Admin = () => {
 	return (
